@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<dl>
+<dt>"Latitude" {{ result_0}}</dt>
+<dt>"Longitude"{{ result_1}}</dt>
+<dt>"Price"{{ result_2}}</dt>
+<dt>"time"{{ result_3}}</dt>
+</dl>
+
+<img src="{{ result_4 }}" width="128" height="128">
+<a href="{{ result_5 }}" target="_blank">{{ result_6 }}</a>
+{% endblock %}
